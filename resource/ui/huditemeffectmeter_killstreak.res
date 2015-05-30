@@ -5,12 +5,10 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"94"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"xpos_minmode"	"68"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"wide"			"100"
-		"tall"			"50"
+		"xpos"			"0"	[$WIN32]
+		"ypos"			"0"	[$WIN32]
+		"wide"			"98"
+		"tall"			"480"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -19,7 +17,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
+		"xpos"			"1222"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"76"
@@ -35,26 +33,35 @@
 		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
 	}
 	
+	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"25"
-		"ypos"					"27"
-		"zpos"					"2"
-		"wide"					"41"
+		"xpos"					"9000"
+	}
+	"ItemEffectMeterLabel2"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterLabel2"
+		"xpos"					"10"
+		"ypos"					"R48"
+		"zpos"					"12"
+		"wide"					"141"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_KillStreak"
-		"textAlignment"			"center"
+		"labelText"				"KILLSTREAK:"
+		"textAlignment"			"south-west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"fgcolor_override"			"250 250 250 210"
+		"font"					"robotobold10"
 	}
+	
 
 	"ItemEffectMeter"
 	{	
@@ -77,26 +84,84 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}					
-	
+	"BG"
+	{
+		"ControlName"	"ctfImagePanel"
+		"fieldName"		"BG"
+		"xpos"			"-1"
+		"ypos"			"r47"
+		"zpos"			"4"
+		"wide"			"100"
+		"tall"			"17"
+		"visible"		"1"
+		"alpha"			"185"
+		"image"					"replay/thumbnails/sidegradient"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+	}
+	"BG3"
+	{
+		"ControlName"	"ctfImagePanel"
+		"fieldName"		"BG3"
+		"xpos"			"-1"
+		"ypos"			"r47"
+		"zpos"			"4"
+		"wide"			"100"
+		"tall"			"17"
+		"visible"		"1"
+		"alpha"			"205"
+		"image"					"replay/thumbnails/sidegradient"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+	}
+	"BG2"
+	{
+		"ControlName"	"ctfImagePanel"
+		"fieldName"		"BG2"
+		"xpos"			"-1"
+		"ypos"			"r47"
+		"zpos"			"4"
+		"wide"			"100"
+		"tall"			"1"
+		"visible"		"1"
+		"alpha"			"205"
+		"image"					"replay/thumbnails/sidegradient"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+	}
+	"BG4"
+	{
+		"ControlName"	"ctfImagePanel"
+		"fieldName"		"BG4"
+		"xpos"			"-1"
+		"ypos"			"r31"
+		"zpos"			"4"
+		"wide"			"100"
+		"tall"			"1"
+		"visible"		"1"
+		"alpha"			"205"
+		"image"					"replay/thumbnails/sidegradient"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+	}
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"25"
-		"ypos_minmode"			"18"
-		"ypos"					"10"
-		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"20"	
+		"xpos"					"60"
+		"ypos"					"R45"
+		"zpos"					"12"
+		"wide"					"141"
+		"tall"					"15"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
+		"textAlignment"			"south-west"
+		"FGCOLOR_OVERRIDE"			"250 250 250 210"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
-		"font_minmode"			"HudFontSmall"
+		"font"					"robotobold16"
 	}
 }

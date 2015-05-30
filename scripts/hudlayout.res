@@ -16,14 +16,10 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r95"	[$WIN32]
-		"xpos_minmode"	"r85"	[$WIN32]
-		"ypos"	"r55"	[$WIN32]
-		"ypos_minmode"	"r36"	[$WIN32]
-		"xpos"	"r131"	[$X360]
-		"ypos"	"r77"	[$X360]
-		"wide"	"94"
-		"tall"	"45"
+		"xpos"	"r98"	[$WIN32]
+		"ypos"	"0"	[$WIN32]
+		"wide"	"98"
+		"tall"	"480"
 	}
 	
 	HudObjectiveStatus
@@ -59,16 +55,11 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r50"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"MeterFG"		"255 255 255 210"
+		"MeterBG"		"22 22 22 140"
 	}
 	
 	HudMedicCharge
@@ -87,12 +78,8 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"xpos"			"c-25"	[$WIN32]
+		"ypos"			"r28"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"60"
 		"wide_minmode"	"50"
@@ -210,10 +197,8 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"xpos_minmode"			"61"
-		"ypos"					"r152"
-		"ypos_minmode"			"r134"
+		"xpos"					"78"
+		"ypos"					"r35"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -254,12 +239,10 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"285"
+		"ypos"		"305"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"40"
-		"priority_lodef"	"5"
 
 		if_vr
 		{
@@ -278,7 +261,6 @@
 		"wide"	 	"252"
 		"tall"	 	"30"
 		"priority"	"32"
-		"priority_lodef" "35"
 		
 		"x_offset" "5"
 		"y_offset" "5"
@@ -290,10 +272,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"335"
+		"ypos"		"415"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"35"
 
 		if_vr
@@ -488,29 +469,29 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r640"	[$WIN32]
-		"ypos"	 "2"	[$WIN32]
+		"ypos"	 "6"	[$WIN32]
 		"xpos"	 "r672"	[$X360]
 		"ypos"	 "35"	[$X360]
-		"wide"	 "637"
+		"wide"	 "633"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "7"
+		"MaxDeathNotices" "11"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "13"
 		"LineSpacing"	  "2"
-		"CornerRadius"	  "0"
+		"CornerRadius"	  "2"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
 		"TextFont"		"robotobold10"
 		
-		"TeamBlue"		"99 175 225 255"
-		"TeamRed"		"225 82 82 255"
+		"TeamBlue"		"154 205 255 255"
+		"TeamRed"		"255 62 62 255"
 		"IconColor"		"199 207 255 225"
-		"LocalPlayerIconColor"		"199 207 255 255"
+		"LocalPlayerIconColor"		"199 207 253 255"
 		"LocalPlayerColor"	"61 61 61 225"
 		"backgroundtype"	"3"
 
-		"BaseBackgroundColor"	"22 22 22 140"		[$WIN32]
+		"BaseBackgroundColor"	"0 0 0 198"		[$WIN32]
 		"LocalBackgroundColor"	"250 250 250 250"	[$WIN32]
 		"BaseBackgroundColor"	"255 255 255 255"		[$X360]
 		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
@@ -866,9 +847,9 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150"
-		"ypos"					"215"
-		"wide"					"300"
+		"xpos"					"c-230"
+		"ypos"					"0"
+		"wide"					"460"
 		"tall"					"300"
 	}
 

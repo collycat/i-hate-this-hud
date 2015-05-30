@@ -12,9 +12,9 @@
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"35"	[$WIN32]
-		"delta_item_start_y"	"40"
-		"delta_item_end_y"		"50"
+		"delta_item_x"			"44"	[$WIN32]
+		"delta_item_start_y"	"24"
+		"delta_item_end_y"		"34"
 		"PositiveColor"			"178 230 118 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"

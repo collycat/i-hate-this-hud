@@ -231,7 +231,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
 		"xpos"			"0"
-		"ypos"			"20"
+		"ypos"			"18"
 		"zpos"			"5"
 		"wide"			"110"
 		"tall"			"10"
@@ -249,11 +249,11 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
-		"xpos"			"35"	[$WIN32]
+		"xpos"			"30"	[$WIN32]
 		"ypos"			"18"
 		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"12"
+		"wide"			"50"
+		"tall"			"10"
 		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"

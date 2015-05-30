@@ -14,12 +14,12 @@
 		"enabled"		"1"
 		"tabPosition"		"0"	
 		"avatar_width"		"2"	 
-		"name_width"		"79"	 
+		"name_width"		"81"	 
 		"status_width"		"15"	 
 		"nemesis_width"		"13"	 
 		"class_width"		"13"	 
-		"score_width"		"29"
-		"ping_width"		"22"	 
+		"score_width"		"26"
+		"ping_width"		"26"	 
 	}
 	
 	"BlueScoreBG"
@@ -443,6 +443,23 @@
 		"enabled"		"1"
 		"border"		"sborder"
 		"fillcolor"	"32 39 45 0"
+	}
+	"Border6"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Border6"
+		"xpos"		"c-230"
+		"ypos"		"c-120"
+		"wide"		"460"
+		"tall"		"184"
+		"zpos"		"8"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"border"		"SBorder2"
+		"fillcolor"	"32 39 45 0"
+		"alpha"	"60"
 	}
 	"Shadow"
 	{

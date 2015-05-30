@@ -85,7 +85,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"22 22 22 140"
+		"fillcolor"		"22 22 22 150"
 		"PaintBackgroundType""0"
 	}
 	"TargetBG2"
@@ -101,7 +101,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"61 61 61 140"
+		"fillcolor"		"61 61 61 150"
 		"PaintBackgroundType""0"
 	}
 	
@@ -120,31 +120,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
-		"fgcolor_override"		"255 255 255 255"
+		"fgcolor_override"		"255 255 255 210"
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}	
-	"TargetNameLabel2"
-	{	
-		"ControlName"		"Label"
-		"fieldName"		"TargetNameLabel2"
-		"font"			"Robotobold16"
-		"xpos"			"47"
-		"ypos"			"1"
-		"zpos"			"1"
-		"wide"			"640"
-		"tall"			"17"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%targetname%"
-		"fgcolor_override"		"0 0 0 240"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-	}
+	
 	"TargetDataLabel"
 	{	
 		"ControlName"		"Label"

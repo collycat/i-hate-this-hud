@@ -141,7 +141,7 @@ Scheme
 		RichText.SelectedTextColor		"Black"
 		RichText.SelectedBgColor		"Orange"
 
-		ScrollBar.Wide					17
+		ScrollBar.Wide					20
 	  	ScrollBarNobBorder.Outer 			"ScrollBarDark"
 		ScrollBarNobBorder.Inner 			"ScrollBarGrey"
 		ScrollBarNobBorderHover.Inner 			"ScrollBarGrey"

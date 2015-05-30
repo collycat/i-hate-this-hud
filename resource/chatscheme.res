@@ -16,14 +16,23 @@ Scheme
 	Colors
 	{
 		// base colors
-		"White"				"110 110 110 255"
-		"OffWhite"			"110 110 110 255"
-		"DullWhite"			"110 110 110 255"
-		"Orange"			"33 150 243 255"
-		"TransparentBlack"		"252 252 252 255"
-		"Black"				"252 252 252 255"
+		"White"				"255 255 255 255"
+		"OffWhite"			"216 216 216 255"
+		"DullWhite"			"142 142 142 255"
+		"Orange"			"255 155 0 255"
+		"TransparentBlack"	"0 0 0 128"
+		"Black"				"0 0 0 255"
 
 		"Blank"				"0 0 0 0"
+		
+		"SteamLightGreen"	"157 194 80 255"
+		"AchievementsLightGrey"		"79 79 79 255"
+		"AchievementsDarkGrey"		"55 55 55 255"
+		"AchievementsInactiveFG"	"130 130 130 255"
+		
+		"ScrollBarGrey"		"51 51 51 255"
+		"ScrollBarHilight"	"110 110 110 255"
+		"ScrollBarDark"		"38 38 38 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -33,9 +42,9 @@ Scheme
 	BaseSettings
 	{
 		// vgui_controls color specifications
-		Border.Bright					"252 252 252 0"	// the lit side of a control
-		Border.Dark						"252 252 252 0"		// the dark/unlit side of a control
-		Border.Selection				"252 252 252 0"			// the additional border color for displaying the default/selected button
+		Border.Bright					"200 200 200 196"	// the lit side of a control
+		Border.Dark						"40 40 40 196"		// the dark/unlit side of a control
+		Border.Selection				"0 0 0 196"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"White"
 		Button.BgColor					"Blank"
@@ -130,17 +139,26 @@ Scheme
 		RichText.SelectedTextColor		"Black"
 		RichText.SelectedBgColor		"Orange"
 
+		
 		ScrollBar.Wide					8
+	  	ScrollBarNobBorder.Outer 			"ScrollBarDark"
+		ScrollBarNobBorder.Inner 			"ScrollBarGrey"
+		ScrollBarNobBorderHover.Inner 			"ScrollBarGrey"
+		ScrollBarNobBorderDragging.Inner 		"ScrollBarHilight"
 
-		ScrollBarButton.FgColor				"White"
-		ScrollBarButton.BgColor				"Blank"
-		ScrollBarButton.ArmedFgColor		"White"
-		ScrollBarButton.ArmedBgColor		"Blank"
-		ScrollBarButton.DepressedFgColor	"White"
-		ScrollBarButton.DepressedBgColor	"Blank"
+		ScrollBarButton.FgColor				"ScrollBarHilight"
+		ScrollBarButton.BgColor				"ScrollBarGrey"
+		ScrollBarButton.ArmedFgColor			"ScrollBarHilight"
+		ScrollBarButton.ArmedBgColor			"ScrollBarGrey"
+		ScrollBarButton.DepressedFgColor		"ScrollBarHilight"
+		ScrollBarButton.DepressedBgColor		"ScrollBarGrey"
 
-		ScrollBarSlider.FgColor				"Blank"			// nob color
-		ScrollBarSlider.BgColor				"255 255 255 64"	// slider background color
+		ScrollBarSlider.Inset				1			// Number of pixels to inset scroll bar nob
+		ScrollBarSlider.FgColor				"ScrollBarGrey"			// nob color
+		ScrollBarSlider.BgColor				"ScrollBarDark"	// slider background color
+		ScrollBarSlider.NobFocusColor			"ScrollBarHilight"		// nob mouseover color
+		ScrollBarSlider.NobDragColor			"ScrollBarHilight"		// nob active drag color
+
 
 		SectionedListPanel.HeaderTextColor	"White"
 		SectionedListPanel.HeaderBgColor	"Blank"
@@ -379,7 +397,7 @@ Scheme
 		FrameBorder
 		{
 			// rounded corners for frames
-			"backgroundtype" "0"
+			"backgroundtype" "2"
 		}
 
 		DepressedBorder
@@ -483,7 +501,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Bright"
+					"color" "Border.Dark"
 					"offset" "0 1"
 				}
 			}
@@ -501,7 +519,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Bright"
+					"color" "Border.Dark"
 					"offset" "0 0"
 				}
 			}
@@ -556,6 +574,49 @@ Scheme
 			}
 		}
 
+		ScrollBarSliderBorder
+		{
+			"inset" "2 2 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "ScrollBarHilight"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "ScrollBarDark"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "ScrollBarHilight"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "ScrollBarDark"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		ScrollBarSliderBorderHover ScrollBarSliderBorder
+		ScrollBarSliderBorderDragging ScrollBarSliderBorder
+		
 		TabBorder
 		{
 			"inset" "0 0 1 1"
