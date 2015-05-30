@@ -77,11 +77,11 @@
 		"labelText"		""
 		"textAlignment" "center"
 		"xpos"			"c-250"
-		"ypos"			"71"
-		"zpos"			"2"
+		"ypos"			"70"
+		"zpos"			"12"
 		"wide"			"500"
-		"tall"			"16"
+		"tall"			"13"
 		"autoResize"	"0"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"whitetone"
 	}
 }

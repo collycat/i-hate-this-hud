@@ -19,8 +19,7 @@
 	{
 		"ControlName"	"CircularProgressBar"
 		"fieldName"	"ProgressBar"
-		"xpos"		"28"
-		"xpos_minmode"		"18"
+		"xpos"		"9999"
 		"ypos"		"5"
 		"ypos_minmode"		"3"
 		"zpos"		"23"
@@ -82,7 +81,6 @@
 		"font_minmode"			"DefaultVerySmall"
 		"xpos"			"2214"
 		"ypos"			"8"
-		"ypos_minmode"			"0"
 		"zpos"			"23"
 		"wide"			"75"
 		"wide_minmode"			"49"
