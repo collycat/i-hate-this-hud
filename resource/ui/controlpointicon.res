@@ -65,14 +65,15 @@
 	{
 		"ControlName"	"ImagePanel"		
 		"fieldName"	"OverlayImage"
-		"xpos"		"19"
-		"ypos"		"0"
+		"xpos"		"16"
+		"ypos"		"2"
 		"zpos"		"4"
-		"wide"		"14"
-		"tall"		"14"
+		"wide"		"6"
+		"tall"		"6"
 		"visible"	"0"
 		"enabled"	"1"
 		"image"		"capture_icon"
+		"BORDER"		"sborder2"
 		"scaleImage"	"1"
 	}
 	"Top"
@@ -88,6 +89,21 @@
 		"enabled"	"1"
 		"fillcolor"	"blank"
 		"border"	"cpborder"
+		"scaleImage"	"1"
+	}
+	"Top2"
+	{
+		"ControlName"	"ImagePanel"		
+		"fieldName"	"Top2"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"7"
+		"wide"		"24"
+		"tall"		"24"
+		"visible"	"1"
+		"enabled"	"1"
+		"fillcolor"	"blank"
+		"border"	"sborder2"
 		"scaleImage"	"1"
 	}
 	

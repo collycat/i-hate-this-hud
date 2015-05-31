@@ -17,7 +17,7 @@
 		"enabled"				"1"
 		"border"				"sborder2"
 		"FGcolor_override"		"215 215 215 210"
-		"BGcolor_override"		"22 22 22 140"
+		"BGcolor_override"		"0 0 0 200"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}					
