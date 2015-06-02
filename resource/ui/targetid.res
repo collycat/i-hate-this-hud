@@ -85,7 +85,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"22 22 22 150"
+		"fillcolor"		"0 0 0 198"
 		"PaintBackgroundType""0"
 	}
 	"TargetBG2"
@@ -101,7 +101,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"61 61 61 150"
+		"fillcolor"		"61 61 61 0"
 		"PaintBackgroundType""0"
 	}
 	
@@ -141,7 +141,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"		"178 230 118 255"
+		"fgcolor_override"		"178 230 118 225"
 		"labelText"		"%targetdata%"
 		"textAlignment"		"Left"
 		"dulltext"		"0"

@@ -7,16 +7,11 @@
 		"OnlyInGame"	"1"
 		"subimage" "icon_resume"
 	}
-	"QuickplayButton2"
+	"QuickplayButton"
 	{
-		"label" "." 
+		"label" "QUICKPLAY" 
 		"command" "quickplay"
-		"OnlyAtMenu" "0"
-	}
-	"QuickplayButton2UnderFake"
-	{
-		"label" "w" 
-		"command" "quickplay"
+		"subimage" "replay/thumbnails/White"
 		"OnlyAtMenu" "0"
 	}
 	
@@ -24,28 +19,15 @@
 	{
 		"label" "." 
 		"command" "playpve"
-		"subimage" "glyph_coop"
+		"subimage" "replay/thumbnails/White"
 		"OnlyAtMenu" "1"
 	}
-	"PlayPVEButtonFakeUnder"
-	{
-		"label" "MvM" 
-		"command" "playpve"
-		"subimage" "glyph_coop"
-		"OnlyAtMenu" "1"
-	}
+	
 	"ServerBrowserButton"
 	{
 		"label" "SERVER BROWSER" 
 		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyAtMenu" "0"
-	} 
-	"ServerBrowserButtonFakeUnder"
-	{
-		"label" "s" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
+		"subimage" "replay/thumbnails/White"
 		"OnlyAtMenu" "0"
 	} 
 	

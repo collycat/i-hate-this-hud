@@ -4184,6 +4184,18 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"RobotoBold22Test"
+		{
+			"1"
+			{
+				"name"		"Geforce Bold"
+				"tall"		"22"
+				"additive"  "0"
+				"antialias"	"1"
+				"scanlines"		"2"
+				"blur"			"3"
+			}
+		}
 		"RobotoBold24"
 		{
 			"1"
@@ -5727,6 +5739,64 @@ Scheme
 					"offset" "0 0"
 				}
 				"3"
+				{
+					"color" "32 39 45 255"
+					"offset" "0 0"
+				}
+			}
+		}
+		SBorderAva
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "32 39 45 255"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "32 39 45 255"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "32 39 45 0"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "32 39 45 0"
+					"offset" "0 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "32 39 45 255"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "32 39 45 255"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "32 39 45 255"
+					"offset" "0 0"
+				}
+				"2"
 				{
 					"color" "32 39 45 255"
 					"offset" "0 0"

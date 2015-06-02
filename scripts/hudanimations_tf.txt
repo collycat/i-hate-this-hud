@@ -208,9 +208,9 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"230"			Linear 0.2 0.4
 	Animate	HealthBarBuffID 	Alpha		"255"			Linear 0.0 0.2
 	Animate	HealthBarBuffID 	Alpha		"255"			Linear 0.2 0.0
-	Animate	PlayerStatusHealthValueScan 		fgcolor		"178 230 118 250"			Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueScan 		fgcolor		"120 150 180 250"			Linear 0.0 0.0
 	Animate	PlayerStatusHealthValue 			Alpha		"200"			Linear 0.0 0.2
-	Animate	PlayerStatusHealthValue 			fgcolor		"240 250 230 255"			Linear 0.0 0.2
+	Animate	PlayerStatusHealthValue 			fgcolor		"195 235 255 255"			Linear 0.0 0.2
 	Animate	PlayerStatusHealthValueScan 		Alpha		"180"			Linear 0.0 0.2
 	Animate	PlayerStatusHealthValueScan 		Alpha		"255"			Linear 0.2 0.4
 	
@@ -482,8 +482,8 @@ event HudMedicCharged
 	Animate	UberBG 	Alpha		"125"		Linear 0.0 0.2
 	Animate	UberBG 	Alpha		"225"		Linear 0.2 0.4
 	
-	Animate	ChargeMeter 	FgColor		"178 230 118 240"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"178 230 118 240"		Linear 0.3 0.4
+	Animate	ChargeMeter 	FgColor		"120 150 180 240"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"120 150 180 240"		Linear 0.3 0.4
 
 	RunEvent HudMedicChargedLoop	0.65
 }

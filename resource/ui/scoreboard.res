@@ -441,7 +441,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"sborder"
+		"border"		"noborder"
 		"fillcolor"	"32 39 45 0"
 	}
 	"Border6"
@@ -459,7 +459,7 @@
 		"enabled"		"1"
 		"border"		"SBorder2"
 		"fillcolor"	"32 39 45 0"
-		"alpha"	"60"
+		"alpha"	"90"
 	}
 	"Shadow"
 	{
