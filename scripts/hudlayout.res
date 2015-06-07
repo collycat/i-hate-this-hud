@@ -67,10 +67,10 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"0"	[$WIN32]
-		"ypos"			"20"	[$WIN32]
-		"wide"			"f0"
-		"tall"			"480"
+		"xpos"	"r98"	[$WIN32]
+		"ypos"	"0"	[$WIN32]
+		"wide"	"98"
+		"tall"	"480"
 	}
 	
 	HudDemomanCharge
@@ -182,12 +182,9 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r162"	[$WIN32]
-		"ypos"					"r152"	[$WIN32]
-		"ypos_minmode"			"r134"	[$WIN32]
-		"xpos"					"r194"	[$X360]
-		"ypos"					"r174"	[$X360]
-		"wide"					"116"
+		"xpos"					"c-100"	[$WIN32]
+		"ypos"					"r102"	[$WIN32]
+		"wide"					"200"
 		"tall"  				"180"
 		"visible" 				"1"
 		"enabled" 				"1"

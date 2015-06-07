@@ -91,17 +91,17 @@ Scheme
 		// training
 		"HudTrainingHint"			"212 160 23 255"
 		
-		"TanDark"				"17 17 17 255"
-		"TanLight"				"17 17 17 255"
-		"TanLight"				"17 17 17 255"
-		"TanDarker"				"46 43 42 255"
+		"TanDark"				"200 200 200 255"
+		"TanLight"				"252 252 252 255"
+		"TanLight"				"252 252 252 255"
+		"TanDarker"				"40 40 40 255"
 		
 		"StoreDarkTan"			"131 121 104 255"
 		"StoreGreen"			"76 107 34 255"
 		
 		// Building HUD Specific
 		"LowHealthRed"		"255 0 0 255"
-		"ProgressOffWhite"	"251 235 202 255"
+		"ProgressOffWhite"	"215 215 215 210"
 		"ProgressBackground"	"250 234 201 51"
 		"HealthBgGrey"		"72 71 69 255"
 		
@@ -210,12 +210,12 @@ Scheme
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
 		
 		Econ.Dialog.BgColor									"Blank"
-		Econ.Button.BgColor									"orangetone"
-		Econ.Button.FgColor									"whitetone"
-		Econ.Button.ArmedBgColor							"whitetone2"
-		Econ.Button.ArmedFgColor							"darktext"
-		Econ.Button.DepressedBgColor						"whitetone2"
-		Econ.Button.DepressedFgColor						"darktext"
+		Econ.Button.BgColor									"Blank"
+		Econ.Button.FgColor									"255 255 255 240"
+		Econ.Button.ArmedBgColor							"Blank"
+		Econ.Button.ArmedFgColor							"255 255 255 240"
+		Econ.Button.DepressedBgColor						"Blank"
+		Econ.Button.DepressedFgColor						"255 255 255 240"
 		
 		Econ.Button.PresetDefaultColorFg					"TanLight"
 		Econ.Button.PresetArmedColorFg						"TanLight"
@@ -229,14 +229,14 @@ Scheme
 		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"51 51 51 255"
+		Button.TextColor				"255 255 255 240"
 		Button.BgColor					"blank"
-		Button.ArmedTextColor			"whitetone2"
-		Button.ArmedBgColor				"17 17 17 200"
-		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"TFOrange"
-		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"TFOrange"
+		Button.ArmedTextColor			"255 255 255 240"
+		Button.ArmedBgColor				"blank"
+		Button.SelectedTextColor		"255 255 255 240"
+		Button.SelectedBgColor			"blank"
+		Button.DepressedTextColor		"255 255 255 240"
+		Button.DepressedBgColor			"blank"
 
 		CheckButton.TextColor			"77 77 77 255"
 		CheckButton.SelectedTextColor	"77 77 77 255"
@@ -5289,14 +5289,19 @@ Scheme
 				}
 			}
 		}
-		1px224
+		MainMenuDepth
 		{
 			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
-					"color" "0 0 0 0"
+					"color" "0 0 0 80"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "0 0 0 68"
 					"offset" "0 0"
 				}
 			}
@@ -5305,7 +5310,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 0 0 0"
+					"color" "255 255 255 38"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "255 255 255 20"
 					"offset" "0 0"
 				}
 			}
@@ -5323,7 +5333,105 @@ Scheme
 			{
 				"1"
 				{
-					"color" "220 220 220 255"
+					"color" "0 0 0 0"
+					"offset" "0 0"
+				}
+			}
+		}
+		MainMenuDepthQuitFix
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 80"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "0 0 0 68"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "255 255 255 0"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "255 255 255 0"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "0 0"
+				}
+			}
+		}
+		MainMenuDepthMOTDFix
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "0 0 0 0"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "255 255 255 38"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "255 255 255 20"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
 					"offset" "0 0"
 				}
 			}

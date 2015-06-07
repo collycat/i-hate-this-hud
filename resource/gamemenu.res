@@ -7,6 +7,10 @@
 		"OnlyInGame"	"1"
 		"subimage" "icon_resume"
 	}
+	"MenuTest"
+	{
+		"OnlyInGame"	"1"
+	}
 	"QuickplayButton"
 	{
 		"label" "QUICKPLAY" 
@@ -25,7 +29,7 @@
 	
 	"ServerBrowserButton"
 	{
-		"label" "SERVER BROWSER" 
+		"label" "SERVERS" 
 		"command" "OpenServerBrowser"
 		"subimage" "replay/thumbnails/White"
 		"OnlyAtMenu" "0"
@@ -68,13 +72,13 @@
 	}
 	"GeneralStoreButton"
 	{
-		"label" "."
+		"label" "SHOP"
 		"command" "engine open_store"
 		"subimage" "glyph_store"
 	}	
 	"CharacterSetupButton"
 	{
-		"label" "_"
+		"label" "INVENTORY"
 		"command" "engine open_charinfo"
 		"subimage" "glyph_items"
 	}

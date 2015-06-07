@@ -20,7 +20,7 @@ Scheme
 		"OffWhite"			"216 216 216 255"
 		"DullWhite"			"142 142 142 255"
 		"Orange"			"255 155 0 255"
-		"TransparentBlack"	"0 0 0 128"
+		"TransparentBlack"	"0 0 0 150"
 		"Black"				"0 0 0 255"
 
 		"Blank"				"0 0 0 0"
@@ -42,17 +42,17 @@ Scheme
 	BaseSettings
 	{
 		// vgui_controls color specifications
-		Border.Bright					"200 200 200 196"	// the lit side of a control
-		Border.Dark						"40 40 40 196"		// the dark/unlit side of a control
+		Border.Bright					"0 0 0 150"	// the lit side of a control
+		Border.Dark						"0 0 0 150"		// the dark/unlit side of a control
 		Border.Selection				"0 0 0 196"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"White"
-		Button.BgColor					"Blank"
+		Button.BgColor					"TransparentBlack"
 		Button.ArmedTextColor			"White"
-		Button.ArmedBgColor				"Blank"				[$WIN32]
+		Button.ArmedBgColor				"TransparentBlack"				[$WIN32]
 		Button.ArmedBgColor				"190 115 0 255"		[$X360]
 		Button.DepressedTextColor		"White"
-		Button.DepressedBgColor			"Blank"
+		Button.DepressedBgColor			"TransparentBlack"
 		Button.FocusBorderColor			"Black"
 		
 		CheckButton.TextColor			"OffWhite"
@@ -73,10 +73,8 @@ Scheme
 		Frame.TitleTextInsetX			16
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
-		Frame.BgColor					"160 160 160 255"	[$WIN32]
-		Frame.BgColor					"80 80 80 192"		[$X360]
-		Frame.OutOfFocusBgColor			"160 160 160 255"	[$WIN32]
-		Frame.OutOfFocusBgColor			"80 80 80 192"		[$X360]
+		Frame.BgColor					"155 155 155 255"	[$WIN32]
+		Frame.OutOfFocusBgColor			"140 140 140 225"	[$WIN32]
 		Frame.FocusTransitionEffectTime	"0"								// time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime		"0"					[$WIN32]	// time it takes for a window to fade in/out on open/close
 		Frame.TransitionEffectTime		"0.2"				[$X360]		// time it takes for a window to fade in/out on open/close
@@ -92,9 +90,8 @@ Scheme
 		FrameSystemButton.Icon			""
 		FrameSystemButton.DisabledIcon	""
 		FrameTitleBar.Font				"UiBold"		[$WIN32]
-		FrameTitleBar.Font				"DefaultLarge"	[$WIN32]
 		FrameTitleBar.TextColor			"White"
-		FrameTitleBar.BgColor			"Blank"
+		FrameTitleBar.BgColor			"40 58 78 0"
 		FrameTitleBar.DisabledTextColor	"255 255 255 192"
 		FrameTitleBar.DisabledBgColor	"Blank"
 
@@ -161,7 +158,7 @@ Scheme
 		ScrollBarSlider.NobDragColor			"ScrollBarHilight"		// nob active drag color
 
 		SectionedListPanel.HeaderTextColor	"White"
-		SectionedListPanel.HeaderBgColor	"Blank"
+		SectionedListPanel.HeaderBgColor	"TransparentBlack"
 		SectionedListPanel.DividerColor		"Black"
 		SectionedListPanel.TextColor		"DullWhite"
 		SectionedListPanel.BrightTextColor	"White"
@@ -370,7 +367,7 @@ Scheme
 			"1"	[$WIN32]
 			{
 				"name"		"Tahoma"
-				"tall"		"12"
+				"tall"		"17"
 				"weight"	"1000"
 			}
 			"1"	[$X360]
@@ -914,8 +911,41 @@ Scheme
 
 		FrameBorder
 		{
-			// rounded corners for frames
-			"backgroundtype" "2"
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 150"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 150"
+					"offset" "0 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 150"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "0 0 0 150"
+					"offset" "0 0"
+				}
+			}
 		}
 
 		DepressedBorder

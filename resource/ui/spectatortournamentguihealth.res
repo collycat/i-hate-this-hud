@@ -55,15 +55,15 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
-	"PlayerStatusHealthValue"
+	"PlayerStatusHealthValue3"
 	{
 		"ControlName"	"Label"
-		"fieldName"		"PlayerStatusHealthValue"
+		"fieldName"		"PlayerStatusHealthValue3"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"96"
-		"tall"			"16"
+		"tall"			"14"
 		"font"		"robotobold16"
 		"labelText"		"%Health%"
 		"fgcolor_override"		"whitetone"
@@ -80,7 +80,7 @@
 		"ypos"			"1"
 		"zpos"			"5"
 		"wide"			"96"
-		"tall"			"16"
+		"tall"			"14"
 		"font"		"robotobold16"
 		"labelText"		"%Health%"
 		"fgcolor_override"		"0 0 0 240"
@@ -104,7 +104,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"alpha"			"0"		
-		"fillcolor"		"178 230 118 105"
+		"fillcolor"		"120 150 180 105"
 		"PaintBackgroundType"	"0"
 	}
 	"HealthBarHurtID"
@@ -122,7 +122,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"alpha"			"0"		
-		"fillcolor"		"225 82 82 85"
+		"fillcolor"		"225 82 82 45"
 		"PaintBackgroundType"	"0"
 	}	
 }

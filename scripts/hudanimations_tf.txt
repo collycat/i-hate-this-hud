@@ -208,10 +208,11 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"230"			Linear 0.2 0.4
 	Animate	HealthBarBuffID 	Alpha		"255"			Linear 0.0 0.2
 	Animate	HealthBarBuffID 	Alpha		"255"			Linear 0.2 0.0
-	Animate	PlayerStatusHealthValueScan 		fgcolor		"120 150 180 250"			Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueScan 		fgcolor		"70 100 200 250"			Linear 0.0 0.0
 	Animate	PlayerStatusHealthValue 			Alpha		"200"			Linear 0.0 0.2
-	Animate	PlayerStatusHealthValue 			fgcolor		"195 235 255 255"			Linear 0.0 0.2
-	Animate	PlayerStatusHealthValueScan 		Alpha		"180"			Linear 0.0 0.2
+	Animate	PlayerStatusHealthValue 			fgcolor		"200 230 250 255"			Linear 0.0 0.2
+	Animate	PlayerStatusHealthValue 			fgcolor		"150 180 220 255"			Linear 0.2 0.4
+	Animate	PlayerStatusHealthValueScan 		Alpha		"240"			Linear 0.0 0.2
 	Animate	PlayerStatusHealthValueScan 		Alpha		"255"			Linear 0.2 0.4
 	
 
@@ -476,14 +477,19 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"whitetone"		Linear 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"whitetone"		Linear 0.3 0.4
 	
 	Animate	UberBG 	Alpha		"125"		Linear 0.0 0.2
 	Animate	UberBG 	Alpha		"225"		Linear 0.2 0.4
 	
-	Animate	ChargeMeter 	FgColor		"120 150 180 240"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"120 150 180 240"		Linear 0.3 0.4
+	Animate	ChargeLabel2 		fgcolor		"70 100 200 250"			Linear 0.0 0.0
+	Animate	ChargeLabel 			Alpha		"200"			Linear 0.0 0.2
+	Animate	ChargeLabel 			fgcolor		"200 230 250 255"			Linear 0.0 0.2
+	Animate	ChargeLabel 			fgcolor		"150 180 220 255"			Linear 0.2 0.4
+	Animate	ChargeLabel2 		Alpha		"240"			Linear 0.0 0.2
+	Animate	ChargeLabel2 		Alpha		"255"			Linear 0.2 0.4
+	
+	Animate	ChargeMeter 	FgColor		"70 100 141 240"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"70 100 141 240"		Linear 0.3 0.4
 
 	RunEvent HudMedicChargedLoop	0.65
 }
@@ -499,8 +505,10 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"whitetone"		Linear 0.0 0.0001
-	Animate	ChargeMeter 	FgColor		"whitetone"		Linear 0.0 0.0001
+	
+	Animate	ChargeLabel2 		Alpha		"0"			Linear 0.0 0.0
+	Animate	ChargeLabel		 		Alpha		"255"			Linear 0.0 0.0
+	Animate	ChargeLabel		 		fgcolor		"255 255 255 210"			Linear 0.0 0.0
 	Animate	UberBG 	alpha		"0"		Linear 0.0 0.0001
 }
 
